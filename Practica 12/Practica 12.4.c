@@ -9,7 +9,7 @@ Autor: Zahid Misaint Murillo Valenzuela
 int MAT;
 float CAL1,CAL2,CAL3,CAL4,CAL5,PROM;
 
-int maint()
+int main()
 {
     printf("Dame la matricula del alumno: ");
     scanf("%i",&MAT);
@@ -17,4 +17,11 @@ int maint()
     scanf("%f, %f, %f, %f, %f",&CAL1,&CAL2,&CAL3,&CAL4,&CAL5);
 
     PROM = (CAL1 + CAL2 + CAL3 + CAL4 + CAL5)/5;
+
+    if(PROM > 6){
+        printf("El alumno con la matricula: %i, tiene un promedio de %0.2f. Aprobado",MAT,PROM);
+    } else {
+        printf("El alumno con la matricula: %i, tiene un promedio de %0.2f. No aprobado",MAT,PROM);
+    }
+     return 0;
 }
