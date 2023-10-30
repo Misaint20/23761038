@@ -11,7 +11,7 @@ float T;
 
 int main()
 {
-    printf("Dame el numero de sonidos del grillo: ");
+    printf("Dame la cantidad de sonidos del grillo: ");
     scanf("%i",&N);
 
     T= N/4+40;
