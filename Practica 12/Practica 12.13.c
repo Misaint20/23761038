@@ -13,15 +13,15 @@ float PROM;
 
 
 int main()
-{
-    start: 
-    printf("CARRERAS:\n");
-    printf("1: Contabilidad\n"); 
-    printf("2: Economia\n");
-    printf("3: Computacion\n");
-    printf("4: Administracion\n");
-    printf("Dame el numero de matricula, selecciona la carrera, dame el semestre y el promedio del alumno: ");
-    scanf("%i, %i, %i, %f",&MAT,&CARR,&SEM,&PROM);
+{ 
+    printf("Dame el numero de matricula: ");
+    scanf("%i",&MAT);
+    start:
+    printf("CARRERAS:\n1: Contabilidad\n2: Economia\n3: Computacion\n4: Administracion\n");
+    printf("Selecciona la carrera: ");
+    scanf("%i",&CARR);
+    printf("Dame el semestre y el promedio del alumno: ");
+    scanf("%i, %f",&SEM,&PROM);
 
     switch (CARR)
     {

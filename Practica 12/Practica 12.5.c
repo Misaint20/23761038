@@ -1,4 +1,5 @@
-/*
+/* 
+CLASIFICACION
 Dado como dato un numero entero imprimir si es positivo, negativo o nulo
 Autor: Zahid Misaint Murillo Valenzuela
 */
@@ -19,11 +20,8 @@ int main()
         if(NUM > 0){
             printf("El numero es positivo");
         } else {
-            if(NUM < 0){
                 printf("El numero es negativo");
-            }
         }
     }
     return 0;
 }
-

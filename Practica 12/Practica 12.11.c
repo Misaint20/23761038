@@ -15,7 +15,7 @@ int main()
 
     start:
     printf("Dame la clave de la zona de la llamada y la duracion de la llamada en minutos: ");
-    scanf("%i, %i",&CLAVE,&NUMIN);
+    scanf("%i y %i minutos",&CLAVE,&NUMIN);
 
     switch (CLAVE)
     {

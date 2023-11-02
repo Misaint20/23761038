@@ -7,17 +7,25 @@ Autor: Zahid Misaint Murillo Valenzuela */
 #include <math.h>
 
 int N;
-float T;
+float T,T2;
 
 int main()
 {
     printf("Dame la cantidad de sonidos del grillo: ");
     scanf("%i",&N);
 
-    T= N/4+40;
+    if(N > 0){
 
-    printf("%0.2f°F",T);
+       T= N/4.00 + 40;
+       T2= (T - 32) * 5/9;
+
+       printf("La temperatura es: %0.2f°F; %0.2f°C",T,T2); 
+
+    } else {
+
+        printf("Grillo perdido");
+
+    }
 
     return 0;
 }
-
