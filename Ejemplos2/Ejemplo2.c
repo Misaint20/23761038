@@ -8,17 +8,22 @@ Autor: Zahid Misaint Murillo Valenzuela
 #include<stdlib.h>
 
 int i=1;
-float SUE, NOM=0;
+float SUE, NOM=0; 
 
 int main()
 {
-    for(i=1; i>=10; i++){
 
-        printf("Dame el sueldo del trabajador %i: ",i);
-        scanf("$%f",&SUE);
+    for(i=1; i<=10; i++){
 
-        NOM = NOM + SUE;
+        printf("Dame el sueldo del trabajador %i: $",i);
+        scanf("%f",&SUE);
+        
+            NOM = NOM + SUE;
+
     }
 
     printf("La nomina total de la empresa es de $%0.2f",NOM);
+
+    return 0;
+
 }
