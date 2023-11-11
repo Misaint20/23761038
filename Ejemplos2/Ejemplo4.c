@@ -11,13 +11,13 @@ float GT, GASTO;
 
 int main()
 {
-    printf("Dame el gasto: ");
+    printf("Dame el gasto: $");
     scanf("%f",&GASTO);
 
     while (GASTO != -1)
     {
         GT = GT + GASTO;
-        printf("Dame el siguiente gasto: ");
+        printf("Dame el siguiente gasto: $");
         scanf("%f",&GASTO);
     }
 
