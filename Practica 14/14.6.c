@@ -36,7 +36,8 @@ int main() {
         scanf("%i",&NUM);
     }
 
-    printf("El numero mayor es %i","\nEl numero menor es %i",MAY,MEN);
+    printf("El numero mayor es %i",MAY);
+    printf("\nEl numero menor es %i",MEN);
 
     return 0; 
 }
