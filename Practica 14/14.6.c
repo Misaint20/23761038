@@ -7,7 +7,7 @@ Autor: Zahid Misaint Murillo Valenzuela
 #include <stdio.h>
 #include <stdlib.h>
 
-int N, NUM, i=1, MAY, MEN;
+int N, NUM, i=2, MAY, MEN;
 
 int main() {
 
@@ -20,8 +20,10 @@ int main() {
     MAY = NUM;
     MEN = NUM;
 
-    for (i = 1; i <= N; i++)
+    for (i = 2; i <= N; i++)
     {
+        printf("Dame el siguiente numero: ");
+        scanf("%i",&NUM);
         if (NUM > MAY)
         {
             MAY = NUM;
@@ -31,9 +33,6 @@ int main() {
         {
             MEN = NUM;
         }
-            
-        printf("Dame el siguiente numero: ");
-        scanf("%i",&NUM);
     }
 
     printf("El numero mayor es %i",MAY);

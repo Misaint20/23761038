@@ -17,7 +17,6 @@ int main() {
     
     CP = 1;
     printf("%i, ",CP);
-    CP = CP + 1;
 
     for (i = 2; i < M; i++)
     {
