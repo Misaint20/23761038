@@ -13,7 +13,12 @@ int main() {
     printf("El arreglo original es...\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("\nV[%i]: %i",i,V[i]);
+        printf("V[%i]\t",i);
+    }
+    printf("\n");
+    for (i = 0; i <= 5; i++)
+    {
+        printf("%i\t\t",V[i]);
     }
 
     printf("\nDame la posicion donde deseas eliminar el valor: ");
@@ -30,7 +35,12 @@ int main() {
 
     for (i = 0; i <= 5; i++)
     {
-        printf("\nV[%i]: %i",i,V[i]);
+        printf("V[%i]\t",i);
+    }
+    printf("\n");
+    for (i = 0; i <= 5; i++)
+    {
+        printf("%i\t\t",V[i]);
     }
 
     return 0;
