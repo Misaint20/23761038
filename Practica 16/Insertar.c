@@ -13,7 +13,12 @@ int main() {
     printf("El arreglo original es...\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("\nV[%i]: %i",i,V[i]);
+        printf("V[%i]\t",i);
+    }
+    printf("\n");
+    for (i = 0; i <= 5; i++)
+    {
+        printf("%i\t\t",V[i]);
     }
 
 
@@ -33,7 +38,12 @@ int main() {
 
     for (i = 0; i <= 5; i++)
     {
-        printf("\nV[%i]: %i",i,V[i]);
+        printf("V[%i]\t",i);
+    }
+    printf("\n");
+    for (i = 0; i <= 5; i++)
+    {
+        printf("%i\t\t",V[i]);
     }
 
     return 0;
