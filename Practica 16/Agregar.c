@@ -1,6 +1,6 @@
 /*
-AÑADIR
-Añade un valor a nuestro arreglo
+AGREGAR
+Agrega un valor a nuestro arreglo
 Autor: Zahid Misaint Murillo Valenzuela
 */
 
@@ -18,7 +18,7 @@ int main() {
     printf("\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("%i\t\t",V[i]);
+        printf("%i\t",V[i]);
     }
     i=0;
     
@@ -44,7 +44,7 @@ int main() {
     printf("\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("%i\t\t",V[i]);
+        printf("%i\t",V[i]);
     }
 
     return 0;

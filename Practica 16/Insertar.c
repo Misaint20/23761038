@@ -18,7 +18,7 @@ int main() {
     printf("\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("%i\t\t",V[i]);
+        printf("%i\t",V[i]);
     }
 
 
@@ -43,7 +43,7 @@ int main() {
     printf("\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("%i\t\t",V[i]);
+        printf("%i\t",V[i]);
     }
 
     return 0;

@@ -18,7 +18,7 @@ int main() {
     printf("\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("%i\t\t",V[i]);
+        printf("%i\t",V[i]);
     }
 
     printf("\nDame la posicion donde deseas eliminar el valor: ");
@@ -40,7 +40,7 @@ int main() {
     printf("\n");
     for (i = 0; i <= 5; i++)
     {
-        printf("%i\t\t",V[i]);
+        printf("%i\t",V[i]);
     }
 
     return 0;
