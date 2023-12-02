@@ -8,11 +8,11 @@ Autor: Zahid Misaint Murillo Valenzuela
 #include <stdlib.h>
 
 int V[12][4] = {{24,20,19,21},{18,24,22,20},{19,27,23,21},{26,25,22,27},{20,21,22,25},{19,26,30,24},{30,32,30,29},{34,30,32,31},{29,30,31,32},{29,26,28,24},{18,24,28,23},{14,15,19,10}};
-int i, j, NUM;
+int i, j;
 
 int main() {
     
-    printf("MES\t\t\tT1\tT2\tT3\tT4\n");
+    printf("MES\t\tT1\tT2\tT3\tT4\n");
 
     for (i = 0; i <= 11; i++)
     {
