@@ -16,14 +16,15 @@ int mult (int n1, int n2)
 
 int main ()
 {
-    int NUM1, NUM2, result;
+    int a, b, c, d;
 
-    printf("Dame los numeros a multiplicar: ");
-    scanf("%i, %i",&NUM1,&NUM2);
+    a= 5;
+    b = 9;
+    c = 4;
+    d = mult(a, b);
+    d = mult(c, d);
 
-    result = mult(NUM1, NUM2);
-
-    printf("El resultado es5: %i",result);
+    printf("El resultado es: %i",d);
 
     return 0;
 }

@@ -1,6 +1,6 @@
 /*
 PROCEDIMIENTO
-
+Escribir un arreglo
 Autor: Zahid Misaint Murillo Valenzuela
 */
 
